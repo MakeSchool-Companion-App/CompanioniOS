@@ -53,6 +53,7 @@ class ProfileCardView: UIView {
         textView.isScrollEnabled = false
         textView.textColor = MakeSchoolDesignColor.darkGrey
         textView.textAlignment = .left
+        textview.isEditable = false
         textView.backgroundColor = UIColor.clear
         textView.font = UIFont(name: "AvenirNext-Medium", size: 13)
         textView.isEditable = false 
